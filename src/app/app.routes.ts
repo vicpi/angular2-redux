@@ -6,6 +6,7 @@ import { NoContentComponent } from './components/no-content';
 import { CounterComponent } from './components/counter/counter-component';
 
 import { DataResolver } from './app.resolver';
+import {GithubProfileEntryComponent} from "./components/github-profile-entry/github-profile-entry.component";
 
 
 export const ROUTES: Routes = [
@@ -17,6 +18,7 @@ export const ROUTES: Routes = [
       .then((comp: any) => comp.default),
   },
   { path: 'profile/:id',      component: ProfileComponent },
+  { path: 'github-profile/entry', component: GithubProfileEntryComponent},
   { path: 'counter', component: CounterComponent },
   { path: '**',    component: NoContentComponent },
 ];

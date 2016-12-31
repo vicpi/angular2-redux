@@ -29,6 +29,7 @@ import {MdButtonModule} from '@angular2-material/button';
 import {MdIconModule} from '@angular2-material/icon';
 import {MdIconRegistry} from '@angular2-material/icon';
 import {CounterComponent} from "./components/counter/counter-component";
+import {GithubProfileEntryComponent} from "./components/github-profile-entry/github-profile-entry.component";
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -54,7 +55,8 @@ type StoreType = {
     ProfileComponent,
     CounterComponent,
     NoContentComponent,
-    XLarge
+    XLarge,
+    GithubProfileEntryComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,

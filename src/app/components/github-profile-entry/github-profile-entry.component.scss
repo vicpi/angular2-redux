@@ -1,0 +1,26 @@
+.gpe-container {
+    width: 60%;
+    .gpe-input-container {
+        display: flex;
+        .gpe-input {
+            flex: 2;
+            font-size: 1.6rem;
+        }
+
+        .gpe-button {
+            flex: 1;
+            background-color: #286090;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            border-radius: 2px;
+            margin-left: 1rem;
+        }
+    }
+}

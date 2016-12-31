@@ -15,7 +15,7 @@ import reducer from './reducers';
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
   styleUrls: [
-    './app.component.css'
+    './app.component.scss'
   ],
   template: `
     <nav>
@@ -52,6 +52,12 @@ import reducer from './reducers';
       <span>
         <a [routerLink]=" ['./about'] ">
           About
+        </a>
+      </span>
+      |
+      <span>
+        <a [routerLink]=" ['./github-profile/entry']">
+          Github Profile
         </a>
       </span>
     </nav>
